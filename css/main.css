@@ -58,6 +58,7 @@ body {
 
 .banner {
   display: grid;
+  background-color: #552;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "banner";
@@ -68,6 +69,12 @@ body {
 .banner img {
   grid-area: banner;
   width: 100%;
+}
+
+a:focus {
+  background-color: #bea59b;
+  outline: .15em solid #fff;
+  color: #522806;
 }
 
 .banner div {
